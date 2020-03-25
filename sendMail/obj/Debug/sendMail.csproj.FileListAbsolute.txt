@@ -1,0 +1,14 @@
+c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\bin\Debug\sendMail.exe.config
+c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.csprojResolveAssemblyReference.cache
+c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.Form1.resources
+c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.Properties.Resources.resources
+c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.csproj.GenerateResource.Cache
+c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\bin\Debug\sendMail.exe
+c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\bin\Debug\sendMail.pdb
+c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.exe
+c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.pdb
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\MaterialDesignColors.dll
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\MaterialDesignThemes.Wpf.xml
