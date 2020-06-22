@@ -2,6 +2,8 @@
 
 This project is desktop based sms and mail sender application. I have used the Sparrowsms api in this project by reading following document link http://docs.sparrowsms.com/en/latest/examples_credits/#c35-c-sharp.
 
+Using this system you can check your balance and send sms by listing the numbers of sms to be sent.
+
 ## Running the project
  for running project you will nee Visual Studio 2015 or higher.
  
