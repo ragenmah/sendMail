@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -12,18 +13,18 @@ using System.Windows.Forms;
 
 namespace sendMail
 {
-    public partial class Form1 : Form
+    public partial class FrmEmail : Form
     {
         OpenFileDialog ofdAttachment;
         String fileName = "";
-        public Form1()
+        public FrmEmail()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Please make the sender mail account settings chabge. \n Go to myaccount.google.com log in with your mail and search for less secure aoo access and enable it", "Information for greater mail service", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Please make the sender mail account settings change. \n Go to myaccount.google.com log in with your mail and search for less secure aoo access and enable it", "Information for greater mail service", MessageBoxButtons.OK, MessageBoxIcon.Information);
             comboBox1.SelectedIndex = 0;
         }
 
@@ -139,6 +140,37 @@ namespace sendMail
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "File ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var responseTest = PostSendSMS("BCIPLbill", "wnxnYDCrAwy87dEgY2FY", "9808086299", "Hello");
+            MessageBox.Show(responseTest);
+
+        }
+
+        private static string PostSendSMS(string from, string token, string to, string text)
+        {
+            using (var client = new WebClient())
+            {
+                try
+                {
+                    var values = new NameValueCollection();
+                    values["from"] = from;
+                    values["token"] = token;
+                    values["to"] = to;
+                    values["text"] = text;
+                    var response = client.UploadValues("http://api.sparrowsms.com/v2/sms/", "Post", values);
+                    var responseString = Encoding.Default.GetString(response);
+                    return responseString;
+
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(e.ToString(),"Message send error");
+                }
+                return "";
             }
         }
     }

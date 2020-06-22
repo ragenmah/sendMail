@@ -1,6 +1,5 @@
 c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\bin\Debug\sendMail.exe.config
 c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.csprojResolveAssemblyReference.cache
-c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.Form1.resources
 c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.Properties.Resources.resources
 c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.csproj.GenerateResource.Cache
 c:\users\ragen\documents\visual studio 2015\Projects\sendMail\sendMail\bin\Debug\sendMail.exe
@@ -12,3 +11,14 @@ C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug
 C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\MaterialDesignColors.pdb
 C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.server.resources
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.templateFrm.resources
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.FrmMaster.resources
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.FrmSendSMS.resources
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.FrmAPIConfig.resources
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.FrmEmail.resources
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.FrmSentSMS.resources
+C:\Users\Ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.FrmEmailTemplate.resources
+C:\Users\Ragen\documents\visual studio 2015\Projects\sendMail\sendMail\obj\Debug\sendMail.FrmEmailConfig.resources
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ragen\Documents\Visual Studio 2015\Projects\sendMail\sendMail\bin\Debug\Newtonsoft.Json.xml

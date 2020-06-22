@@ -1,6 +1,6 @@
 ﻿namespace sendMail
 {
-    partial class Form1
+    partial class FrmEmail
     {
         /// <summary>
         /// Required designer variable.
@@ -30,6 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.cbxSSL = new System.Windows.Forms.CheckBox();
             this.txtPortNumber = new System.Windows.Forms.TextBox();
             this.txtSmtpServer = new System.Windows.Forms.TextBox();
@@ -46,13 +48,12 @@
             this.cbxHtmlBody = new System.Windows.Forms.CheckBox();
             this.txtSubject = new System.Windows.Forms.TextBox();
             this.btnBrowseFile = new System.Windows.Forms.Button();
+            this.lblFileLoc = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtRecipientEmail = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lblFileLoc = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -89,6 +90,27 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sender Information";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(34, 63);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(94, 20);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "Email Type :";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "google",
+            "yahoo"});
+            this.comboBox1.Location = new System.Drawing.Point(134, 60);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(263, 28);
+            this.comboBox1.TabIndex = 10;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // cbxSSL
             // 
@@ -169,6 +191,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.groupBox4);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.cbxHtmlBody);
@@ -243,6 +266,15 @@
             this.btnBrowseFile.UseVisualStyleBackColor = true;
             this.btnBrowseFile.Click += new System.EventHandler(this.btnBrowseFile_Click);
             // 
+            // lblFileLoc
+            // 
+            this.lblFileLoc.AutoSize = true;
+            this.lblFileLoc.Location = new System.Drawing.Point(21, 160);
+            this.lblFileLoc.Name = "lblFileLoc";
+            this.lblFileLoc.Size = new System.Drawing.Size(144, 20);
+            this.lblFileLoc.TabIndex = 4;
+            this.lblFileLoc.Text = "File Location Detail";
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -279,35 +311,15 @@
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
-            // comboBox1
+            // button1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "google",
-            "yahoo"});
-            this.comboBox1.Location = new System.Drawing.Point(134, 60);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(263, 28);
-            this.comboBox1.TabIndex = 10;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(34, 63);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(94, 20);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Email Type :";
-            // 
-            // lblFileLoc
-            // 
-            this.lblFileLoc.AutoSize = true;
-            this.lblFileLoc.Location = new System.Drawing.Point(21, 163);
-            this.lblFileLoc.Name = "lblFileLoc";
-            this.lblFileLoc.Size = new System.Drawing.Size(144, 20);
-            this.lblFileLoc.TabIndex = 4;
-            this.lblFileLoc.Text = "File Location Detail";
+            this.button1.Location = new System.Drawing.Point(54, 225);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 35);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "send sms";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form1
             // 
@@ -358,6 +370,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblFileLoc;
+        private System.Windows.Forms.Button button1;
     }
 }
 
