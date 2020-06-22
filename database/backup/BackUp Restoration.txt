@@ -1,0 +1,2 @@
+Install sql server management studio (SQL Server 2014) 
+create database name PAY1001 and restore the bak file in here
